@@ -1,0 +1,7 @@
+# render.yaml に追加
+jobs:
+  - name: keepalive
+    plan: free
+    trigger: scheduled
+    schedule: "*/15 * * * *"  # 15分間隔
+    startCommand: curl -X GET https://render-dot-com.onrender.com/health
