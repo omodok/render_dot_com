@@ -1,0 +1,7 @@
+flask==3.1.0
+line-bot-sdk==3.16.3
+python-dotenv==1.1.0
+torch==2.6.0
+numpy==1.26.4
+mecab-python3==1.0.10
+gunicorn
